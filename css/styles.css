@@ -25,8 +25,29 @@
 li {
   list-style: none;
   text-decoration: none;
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+}
+.link-header {
+  text-decoration: none;
+  color: var(--secondary-text-color);
+}
+.link-footer {
+  text-decoration: none;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+.work.title {
+  text-decoration: none;
+  line-height: 2;
 }
 
+.work-description {
+  text-decoration: none;
+  color: var(--secondary-text-color);
+}
 .logo {
   color: var(--accent-color);
   font-family: "Raleway", sans-serif;
@@ -133,61 +154,4 @@ li {
   font-style: normal;
   line-height: 1.71;
   color: var(--white-text-color);
-}
-h2,
-h3 {
-  color: var(--primary-text-color);
-}
-.work-description {
-  font-size: 16px;
-  line-height: 1.9;
-  color: var(--secondary-text-color);
-}
-
-.link a:visited {
-  color: rgba(255, 255, 255, 0.6);
-}
-
-a {
-  color: var(--secondary-text-color);
-  text-decoration: none;
-  font-style: normal;
-}
-.link-footer a {
-  color: rgba(255, 255, 255, 0.6);
-}
-.work-title a {
-  color: var(--primary-text-color);
-}
-.link-header visited {
-  color: var(--primary-text-color);
-}
-.link-footer visited {
-  color: var(--primary-text-color);
-}
-
-a:hover,
-a:focus {
-  color: var(--accent-color);
-}
-
-.link-header:hover,
-.link-header:focus {
-  color: var(--accent-color);
-}
-.address-link a {
-  line-height: 1.71;
-  color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
-}
-.link-header a {
-  color: var(--secondary-text-color);
-  text-decoration: none;
-}
-.work-title a {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: inherit;
 }
